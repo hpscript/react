@@ -1,4 +1,4 @@
-# react
+# react-calendarの環境構築
 React.jsの環境構築
 
 ###  webpack, babel, reactのインストール
@@ -15,8 +15,8 @@ $ npm install --save-dev react react-dom
 /src/js/client.js
 
 ### @babel/plugin-proposal-class-properties追加
-$ npm install --save-dev @babel/plugin-proposal-class-properties
-$ npm install --save-dev css-loader
+$ npm install --save-dev @babel/plugin-proposal-class-properties<br>
+$ npm install --save-dev css-loader<br>
 $ npm install --save-dev style-loader
 
 ### webpack-dev-server起動
