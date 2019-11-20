@@ -14,3 +14,6 @@ $ npm install --save-dev react react-dom
 
 ### webpack実行
 $ webpack --mode development
+
+### webpack-dev-server起動
+$ npm start
