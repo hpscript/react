@@ -5,8 +5,17 @@ var path = require('path');
 module.exports = {
 	context:path.join(__dirname, "src"),
 	entry: "./js/client.js",
+	output: {
+		path: __dirname + "/src/",
+		filename: "client.min.js"
+	},
 	module: {
-		rules: [{
+		rules: [
+			{
+				test: /\.css$/i,
+	        	use: ['style-loader', 'css-loader'],
+			},
+			{
 			test: /\.jsx?$/,
 				exclude: /(node_modules|bower_components)/,
 				use: [{
@@ -17,10 +26,7 @@ module.exports = {
 				}]
 		}]
 	},
-	output: {
-		path: __dirname + "/src/",
-		filename: "client.min.js"
-	},
+	
 	devServer: {
 	        contentBase: __dirname + '/src',
 	        host: "0.0.0.0"
