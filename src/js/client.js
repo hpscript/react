@@ -1,10 +1,22 @@
-import React from "react"
-import ReactDOM from "react-dom"
+import React, { Component } from "react";
+import ReactDOM from "react-dom";
+import Calendar from 'react-calendar';
 
-class Layout extends React.Component {
+class Layout extends Component {
+	state = {
+		date: new Date(),
+	}
+
+	onChange = date => this.setState({ date })
+
 	render(){
 		return (
-			<h1>Welcome</h1>
+			<div>
+				<Calendar
+					onChange={this.onChange}
+					value={this.state.date}
+				/>
+			</div>
 		);
 	}
 }
