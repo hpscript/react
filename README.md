@@ -10,3 +10,7 @@ $ npm install --save-dev react react-dom
 
 ### webpack.config.jsの編集
 ### /src/index.htmlの編集
+### /src/js/client.jsの編集
+
+### webpack実行
+$ webpack --mode development
