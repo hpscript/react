@@ -17,7 +17,7 @@ $ npm install --save-dev style-loader
 ### .babelrc編集
 ### webpack.config.js編集
 ### package.jsonでscriptに以下を追加
-"start":"webpack-dev-server --content-base src --mode development --inline",
+"start":"webpack && webpack-dev-server --content-base src --mode development --inline",
 
 ### View(HTML)の編集
 /src/index.html
