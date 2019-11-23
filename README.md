@@ -6,7 +6,8 @@ $ npm init<br>
 $ npm install --save-dev webpack webpack-cli webpack-dev-server<br>
 $ sudo npm install -g webpack webpack-cli<br>
 $ npm install --save-dev @babel/core @babel/preset-env @babel/preset-react babel-loader<br>
-$ npm install --save-dev react react-dom
+$ npm install --save-dev react react-dom<br>
+$ npm install react-calendar
 
 ### @babel/plugin-proposal-class-properties追加
 $ npm install --save-dev @babel/plugin-proposal-class-properties<br>
