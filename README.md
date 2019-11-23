@@ -14,6 +14,11 @@ $ npm install --save-dev @babel/plugin-proposal-class-properties<br>
 $ npm install --save-dev css-loader<br>
 $ npm install --save-dev style-loader
 
+### .babelrc編集
+### webpack.config.js編集
+### package.jsonでscriptに以下を追加
+"start":"webpack-dev-server --content-base src --mode development --inline",
+
 ### View(HTML)の編集
 /src/index.html
 
@@ -22,7 +27,3 @@ $ npm install --save-dev style-loader
 
 ### webpack-dev-server起動
 $ npm start
-
-### $npm start で※ERR! missing script: startと表示された時
-package.jsonでstartを定義しているか確認<br>
-"start":"webpack-dev-server --content-base src --mode development --inline",
