@@ -21,3 +21,7 @@ $ npm install --save-dev style-loader
 
 ### webpack-dev-server起動
 $ npm start
+
+### $npm start で※ERR! missing script: startと表示された時
+package.jsonでstartを定義しているか確認<br>
+"start":"webpack-dev-server --content-base src --mode development --inline",
