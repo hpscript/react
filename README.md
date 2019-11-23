@@ -1,4 +1,4 @@
-# react-calendarの環境構築
+# React.js環境構築(e.g. react-calendar)
 React.jsの環境構築
 
 ###  webpack, babel, reactのインストール
